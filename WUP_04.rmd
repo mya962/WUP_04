@@ -75,5 +75,9 @@ plot(TukeyHSD(model1, conf.level=0.98), las=2)
 The difference is quite obvious with this graph as the LT HIGH SCHOOL- GRADUATE are below 0 showing that there is a significant difference when it is compared to the other DEGREE'S.
 
 ## Discussion and Conclusion
+ 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+A relationship was found in this data, only when we visually saw a difference with the GRADATE being higher than the HIGH SCHOOL DEGREE and the LT HIGH SCHHOL. We saw the numbers showing there was a difference with the Q1 of the GRADUATE since it was 10 while the Q3 of LT high school is 8.25 and the Q3 of High School is 9. After messing around a bit with the code we were able to see major differences between two levels within the data being the HIGH SCHOOL and LtT high school as they are below 0.
+
