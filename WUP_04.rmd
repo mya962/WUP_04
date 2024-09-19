@@ -44,10 +44,6 @@ basicCN + geom_boxplot()
 There is most definitely a difference within the boxplot as GRADUATE'S have a higher first quartile than the HIGH SCHOOL'S third quartile. Its the same way with the JUNIOR'S COLLEGE first quartile being higher than the LT HIGH SCHOOL'S third quartile. 
 
 
-```{r}
-boxplot(WORDSUM~DEGREE,data=GSScsv)
-```
-
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
