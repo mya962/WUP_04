@@ -49,6 +49,11 @@ There is most definitely a difference within the boxplot as GRADUATE'S have a hi
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
+```{r}
+favstats(WORDSUM~DEGREE,data=GSScsv)
+```
+
+GRADUATE has a Q1 of 10 compared to the Q3 of HIGH SCHOOL white is 9 despite its high numbers of 85 people and the Q3 of LT HIGH SCHOOL is 8.25. This is very important because the number of people in HIGH SCHOOL is almost the combined number of all other DEGRESS showing that there is great difference between these values.
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
